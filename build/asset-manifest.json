@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c1c530ce.chunk.css",
+    "main.js": "./static/js/main.3267d42c.chunk.js",
+    "main.js.map": "./static/js/main.3267d42c.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.5e045ca0.js",
+    "runtime-main.js.map": "./static/js/runtime-main.5e045ca0.js.map",
+    "static/css/2.e807eb6e.chunk.css": "./static/css/2.e807eb6e.chunk.css",
+    "static/js/2.f4036a0c.chunk.js": "./static/js/2.f4036a0c.chunk.js",
+    "static/js/2.f4036a0c.chunk.js.map": "./static/js/2.f4036a0c.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.f89b2bbc932e207ffe9c8207e0d752ea.js": "./precache-manifest.f89b2bbc932e207ffe9c8207e0d752ea.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.e807eb6e.chunk.css.map": "./static/css/2.e807eb6e.chunk.css.map",
+    "static/css/main.c1c530ce.chunk.css.map": "./static/css/main.c1c530ce.chunk.css.map",
+    "static/js/2.f4036a0c.chunk.js.LICENSE.txt": "./static/js/2.f4036a0c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "./static/media/River Rocks.044f66d1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e045ca0.js",
+    "static/css/2.e807eb6e.chunk.css",
+    "static/js/2.f4036a0c.chunk.js",
+    "static/css/main.c1c530ce.chunk.css",
+    "static/js/main.3267d42c.chunk.js"
+  ]
+}
