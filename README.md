@@ -11,7 +11,5 @@ Need to add hamburger menu to all pages for mobile.
 
 Need to clean up home page for mobile version (move logo and resize, change layout of buttons)
 
-
-
 deploy to netlify and figure out the react-router stuff.
 
