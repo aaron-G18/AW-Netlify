@@ -11,6 +11,7 @@ Need to add hamburger menu to all pages for mobile.
 
 Need to clean up home page for mobile version (move logo and resize, change layout of buttons)
 
-Maybe put IG logo/link at the bottom corner of all pages.
+
 
 deploy to netlify and figure out the react-router stuff.
+
