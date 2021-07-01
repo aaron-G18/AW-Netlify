@@ -1,0 +1,41 @@
+.content {
+   margin-top: 150px;
+}
+
+img {
+    width: 100%;
+}
+
+.row {
+    margin: 20px;
+}
+
+#life-nav-div {
+    margin-bottom: 50px;
+    margin-right: 75px;
+    text-align: right;
+}
+
+#life-nav {
+    font-size: xx-large;
+    color: black;
+    text-decoration: none;
+}
+
+#photo {
+    animation-name: image-fade;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    /* animation-delay: 1s; */
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes image-fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}

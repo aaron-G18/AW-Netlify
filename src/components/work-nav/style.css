@@ -1,0 +1,53 @@
+#work-navigation {
+    margin-top: 30vh;
+}
+
+.work-nav {
+    color: white;
+    text-decoration: none;
+    width: 20%;
+    display: inline-block;
+    font-size: 5vw;
+    margin: 0px 60px;
+    opacity: 0;
+    
+
+    background-color: rgba(200, 200, 200, .4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    animation-name: work-nav-fade;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+/* #fade {
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    opacity: 1;
+    background-color: whitesmoke;
+    animation-name: background-fade;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  } */
+  
+  
+  @keyframes work-nav-fade {
+    from {
+      opacity: 0;
+      
+    }
+    to {
+      opacity: 1;
+     
+      
+    }
+  }

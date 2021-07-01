@@ -1,50 +1,38 @@
-import React, { Component } from "react"
-import logo from "./logo.svg"
-import "./App.css"
+import React, { Component} from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/home";
+import Life from "./pages/life";
+import Portrait from "./pages/portrait";
+import About from "./pages/about";
+import Contact from "./pages/contact";
+import './App.css';
 
-class LambdaDemo extends Component {
-  constructor(props) {
-    super(props)
-    this.state = { loading: false, msg: null }
-  }
-
-  handleClick = api => e => {
-    e.preventDefault()
-
-    this.setState({ loading: true })
-    fetch("/.netlify/functions/" + api)
-      .then(response => response.json())
-      .then(json => this.setState({ loading: false, msg: json.msg }))
-  }
-
-  render() {
-    const { loading, msg } = this.state
-
-    return (
-      <p>
-        <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
-        <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Lambda"}</button>
-        <br />
-        <span>{msg}</span>
-      </p>
-    )
-  }
-}
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      key: "value",
+    };
+  };
+  
+  
   render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <LambdaDemo />
-        </header>
+    return(
+      <div>
+        <Router>
+            <Switch>
+              <Route exact path={process.env.PUBLIC_URL + "/life"} component={Life} />
+              <Route exact path={process.env.PUBLIC_URL + "/portrait"} component={Portrait} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/contact" component={Contact} />
+              <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+            </Switch>
+        </Router>
       </div>
-    )
-  }
-}
+    );
+  };
+};
 
-export default App
+
+export default App;

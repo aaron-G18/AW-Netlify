@@ -1,0 +1,41 @@
+.logo-container {
+    position: absolute;
+    width: 15vw;
+}
+
+.logo {
+    position: relative;
+    width: 15vw;
+    display: block;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+.logo-animated {
+    position: relative;
+    width: 40vw;
+    display: block;
+    margin-left: 30vw;
+    margin-top: 2vw;
+    animation-name: shrink;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes shrink {
+    from {
+        width: 40vw;
+        margin-left: 30vw;
+        opacity: 1 !important;
+    }
+    to {
+        width: 15vw;
+        margin-left: 2vw;
+        opacity: 1 !important;
+    }
+  }
+
+
+
