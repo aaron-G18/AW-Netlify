@@ -1,11 +1,13 @@
 .logo-container {
     position: absolute;
     width: 15vw;
+    max-width: 175px;
 }
 
 .logo {
     position: relative;
     width: 15vw;
+    max-width: 175px;
     display: block;
     margin-left: 2vw;
     margin-top: 2vw;
