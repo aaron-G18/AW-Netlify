@@ -6,18 +6,22 @@ const Menu = (props) => {
   return (
     <div id="burger-menu" className={props.menuOpen ? "menu-open" : "menu-closed"}>
       <a className="burger-menu-item" href="/portrait">
-        <span role="img" aria-label="about us"></span>
+        <span role="img" aria-label="Portrait"></span>
         Portrait
       </a>
       <a className="burger-menu-item" href="/life">
-        <span role="img" aria-label="price"></span>
+        <span role="img" aria-label="Life"></span>
         Life
       </a>
+      <a className="burger-menu-item" href="/about">
+        <span role="img" aria-label="About"></span>
+        About
+      </a>
       <a className="burger-menu-item" href="/contact">
-        <span role="img" aria-label="contact"></span>
+        <span role="img" aria-label="Contact"></span>
         Contact
       </a>
-      <a className="burger-menu-item" href="https://www.instagram.com/1inawilliams_photography/">
+      <a className="burger-menu-item" aria-label="Instagram" href="https://www.instagram.com/1inawilliams_photography/">
       <FiInstagram /></a>
     </div>
   )
