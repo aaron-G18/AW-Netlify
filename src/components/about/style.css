@@ -15,3 +15,25 @@
     border-radius: 5px;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
+
+@media (max-width: 750px) {
+        
+    #aw-about {
+        clear: both;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 5vw;
+        font-size: 3.5vw;
+    }
+    
+    #aaron {
+        clear: both;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #about-content {
+        align-items: center;
+    }
+}
