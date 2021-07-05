@@ -1,12 +1,18 @@
 .home {
   text-align: center;
-  background: url(./assets/images/River-Rocks.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   min-height: 1000px;
   height: 100vh;
+}
+
+#background {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 #fade {
@@ -31,6 +37,6 @@
   to {
     opacity: 0;
     visibility: hidden;
-    z-index: -1;
+    z-index: -2;
   }
 }
