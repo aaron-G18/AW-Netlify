@@ -21,7 +21,7 @@ const Menu = (props) => {
         <span role="img" aria-label="Contact"></span>
         Contact
       </a>
-      <a id="insta-logo" className="burger-menu-item" aria-label="Instagram" href="https://www.instagram.com/1inawilliams_photography/">
+      <a className="burger-menu-item" aria-label="Instagram" href="https://www.instagram.com/1inawilliams_photography/">
       <FiInstagram size={50}/></a>
     </div>
   )
