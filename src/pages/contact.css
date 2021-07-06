@@ -33,3 +33,8 @@ label, textarea {
 #contact-submit {
     margin-bottom: 2vh;
 }
+
+#submitted-message {
+    text-align: center;
+    color: green;
+}
