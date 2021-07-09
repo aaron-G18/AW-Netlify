@@ -7,6 +7,7 @@ import "./portrait.css";
 import { FiArrowRight } from 'react-icons/fi';
 import Burger from "../components/burger";
 import Menu from "../components/burger-menu";
+import Popup from "../components/image-popup";
 
 
 class Portrait extends Component {
@@ -15,7 +16,10 @@ class Portrait extends Component {
     this.state = {
       homePage: false,
       activePage: "work",
-      menuOpen: false
+      menuOpen: false,
+      imageClicked: "",
+      imageClickedAlt: "",
+      popupOpen: false
     };
   };
 
@@ -26,6 +30,23 @@ class Portrait extends Component {
     } else {
       this.setState({menuOpen: false})
     };
+  };
+
+  // Function to open popup when you click on an image and to set state with that images src.
+  handleImageClick = (e) => {
+    e.preventDefault();
+    this.setState({imageClicked: e.target.src});
+    this.setState({imageClickedAlt: e.target.alt});
+    this.setState({popupOpen: true});
+  };
+
+  // Function to close the popup when you click the "x."
+  closePopup = () => {
+    this.setState({
+      popupOpen: false,
+      imageClicked: "",
+      imageClickedAlt: ""
+    });
   };
 
   render() {
@@ -47,22 +68,22 @@ class Portrait extends Component {
           <Container className="image-container">
             <Row className="row">
               <Col>
-                <Row className="row"><img id="photo" src="./images/Baller-Sariah.jpg" alt="Baller-Sariah.jpg"></img></Row>
-                <Row className="row"><img id="photo" src="./images/Board-Man.jpg" alt="Board-Man.jpg"></img></Row>
-                <Row className="row"><img id="photo" src="./images/Strong-Maria.jpg" alt="Strong-Maria.jpg"></img></Row>
+                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/Baller-Sariah.jpg" alt="Baller-Sariah.jpg"></img></Row>
+                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/Board-Man.jpg" alt="Board-Man.jpg"></img></Row>
+                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/Strong-Maria.jpg" alt="Strong-Maria.jpg"></img></Row>
               </Col>
               <Col>
-                <Row><img id="photo" src="./images/Anita-Chiefs.jpg" alt="Anita-Chiefs.jpg"></img></Row>
-                <Row><img id="photo" src="./images/Anita-Loves-Mum.jpg" alt="Anita-Loves-Mum.jpg"></img></Row>
-                <Row><img id="photo" src="./images/Illy-Speechless.jpg" alt="Illy-Speechless.jpg"></img></Row>
-                <Row><img id="photo" src="./images/Sisters-Album-Cover.jpg" alt="Sisters-Album-Cover.jpg"></img></Row>
-                <Row><img id="photo" src="./images/Valentine-Smiles.jpg" alt="Valentine-Smiles.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Anita-Chiefs.jpg" alt="Anita-Chiefs.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Anita-Loves-Mum.jpg" alt="Anita-Loves-Mum.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Illy-Speechless.jpg" alt="Illy-Speechless.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Sisters-Album-Cover.jpg" alt="Sisters-Album-Cover.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Valentine-Smiles.jpg" alt="Valentine-Smiles.jpg"></img></Row>
               </Col>
               <Col>
-                <Row><img id="photo" src="./images/Sandhya-Profi.jpg" alt="Sandhya-Profi.jpg"></img></Row>
-                <Row><img id="photo" src="./images/Jenny-Kitchen-Liiving.jpg" alt="Jenny-Kitchen-Liiving.jpg"></img></Row>
-                <Row><img id="photo" src="./images/Skilly.jpg" alt="Skilly.jpg"></img></Row>
-                <Row><img id="photo" src="./images/Angry-Alex.jpg" alt="Angry-Alex.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Sandhya-Profi.jpg" alt="Sandhya-Profi.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Jenny-Kitchen-Liiving.jpg" alt="Jenny-Kitchen-Liiving.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Skilly.jpg" alt="Skilly.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Angry-Alex.jpg" alt="Angry-Alex.jpg"></img></Row>
               </Col>
             </Row>
           </Container>
@@ -70,6 +91,12 @@ class Portrait extends Component {
             <a id="life-nav" href="/life">Life <FiArrowRight /></a>
           </div>
         </div>
+        <Popup 
+          popupOpen={this.state.popupOpen}
+          imageClicked={this.state.imageClicked}
+          imageClickedAlt={this.state.imageClickedAlt}
+          closePopup={this.closePopup}
+        /> 
       </div>
     );
   };

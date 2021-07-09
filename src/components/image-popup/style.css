@@ -1,0 +1,41 @@
+.black-out {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 10;
+}
+
+.popup-hidden {
+    display: none;
+}
+
+.popup {
+    position: relative;
+    width: 53vh;
+    margin: auto;
+    top: 5vh;
+}
+
+.close-image {
+    position: relative;
+    font-size: 3vw;
+    color: #a3a3a3;
+    cursor: pointer;
+    float: right;
+    right: -5vw;
+}
+
+@media (max-width: 750px) {
+    .popup {
+        top: 20%;
+        width: 40vh;
+    }
+
+    .close-image {
+        font-size: 9vw;
+       
+    }
+}
