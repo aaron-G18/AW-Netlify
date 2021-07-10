@@ -88,10 +88,27 @@ class Life extends Component {
               </Col>
             </Row>
           </Container>
-          <div id="portrait-nav-div">
-            <a id="portrait-nav" href="/portrait"><FiArrowLeft /> Portrait</a>
+          
+          <div className="mobile-container">
+            <img id="mobile-photo" onClick={this.handleImageClick} src="./images/BLM-Legs.jpg" alt="BLM-Legs.jpg"></img>
+            <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Porto-Trainformation.jpg" alt="Porto-Trainformation.jpg"></img>
+            <img id="mobile-photo" onClick={this.handleImageClick} src="./images/River-Rocks.jpg" alt="River-Rocks.jpg"></img>
+            <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Ghost-Fishing-Edit-test.jpg" alt="Ghost-Fishing-Edit-test.jpg"></img>
+            <img id="mobile-photo" onClick={this.handleImageClick} src="./images/No-Messages.jpg" alt="No-Messages.jpg"></img>
+            <img id="mobile-photo" onClick={this.handleImageClick} src="./images/BLM-Red-Hat-Man.jpg" alt="BLM-Red-Hat-Man.jpg"></img>
+            <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Porto-Play-for-Pay.jpg" alt="Porto-Play-for-Pay.jpg"></img>
+            <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Bad-Biker.jpg" alt="Bad-Biker.jpg"></img>
+            <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Hauptbahnhof-Nights.jpg" alt="Hauptbahnhof-Nights.jpg"></img>
+            <img id="mobile-photo" onClick={this.handleImageClick} src="./images/BLM-Corrupt.jpg" alt="BLM-Corrupt.jpg"></img>
+            <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Porto-Waiting-for-the-Sun.jpg" alt="Porto-Waiting-for-the-Sun.jpg"></img>
+            <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Bending-Lakes.jpg" alt="Bending-Lakes.jpg"></img>
+            <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Texture-Fishing.jpg" alt="Texture-Fishing.jpg"></img>
+            <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Porto-Bus-Thoughts.jpg" alt="Porto-Bus-Thoughts.jpg"></img>
           </div>
         </div> 
+        <div id="portrait-nav-div">
+          <a id="portrait-nav" href="/portrait"><FiArrowLeft /> Portrait</a>
+        </div>
         <Popup 
           popupOpen={this.state.popupOpen}
           imageClicked={this.state.imageClicked}

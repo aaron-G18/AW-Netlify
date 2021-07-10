@@ -87,9 +87,23 @@ class Portrait extends Component {
               </Col>
             </Row>
           </Container>
-          <div id="life-nav-div">
-            <a id="life-nav" href="/life">Life <FiArrowRight /></a>
-          </div>
+        </div>
+        <div className="mobile-container">
+          <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Baller-Sariah.jpg" alt="Baller-Sariah.jpg"></img>
+          <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Board-Man.jpg" alt="Board-Man.jpg"></img>
+          <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Strong-Maria.jpg" alt="Strong-Maria.jpg"></img>
+          <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Anita-Chiefs.jpg" alt="Anita-Chiefs.jpg"></img>
+          <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Anita-Loves-Mum.jpg" alt="Anita-Loves-Mum.jpg"></img>
+          <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Illy-Speechless.jpg" alt="Illy-Speechless.jpg"></img>
+          <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Sisters-Album-Cover.jpg" alt="Sisters-Album-Cover.jpg"></img>
+          <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Valentine-Smiles.jpg" alt="Valentine-Smiles.jpg"></img>
+          <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Sandhya-Profi.jpg" alt="Sandhya-Profi.jpg"></img>
+          <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Jenny-Kitchen-Liiving.jpg" alt="Jenny-Kitchen-Liiving.jpg"></img>
+          <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Skilly.jpg" alt="Skilly.jpg"></img>
+          <img id="mobile-photo" onClick={this.handleImageClick} src="./images/Angry-Alex.jpg" alt="Angry-Alex.jpg"></img>
+        </div>
+        <div id="life-nav-div">
+          <a id="life-nav" href="/life">Life <FiArrowRight /></a>
         </div>
         <Popup 
           popupOpen={this.state.popupOpen}

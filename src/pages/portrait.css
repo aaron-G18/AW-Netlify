@@ -32,8 +32,13 @@ img {
     animation-name: image-fade;
     animation-duration: 3s;
     animation-timing-function: ease;
-    /* animation-delay: 1s; */
+    animation-delay: .8s;
     animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.mobile-container {
+    display: none;
 }
 
 
@@ -49,5 +54,31 @@ img {
 @media (max-width: 750px) {
     #life-nav {
         font-size: 5vw;  
+    }
+
+    .image-container {
+        display: none;
+    }
+
+    .mobile-container {
+        display: grid;
+        width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+        column-gap: 3vw;
+        row-gap: 3vw;
+    }
+    
+    #mobile-photo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        animation-name: image-fade;
+        animation-duration: 3s;
+        animation-timing-function: ease;
+        animation-delay: .8s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
 }
