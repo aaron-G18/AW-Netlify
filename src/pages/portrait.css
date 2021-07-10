@@ -64,7 +64,8 @@ img {
         display: grid;
         width: 90%;
         margin: auto;
-        grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(30vw, auto));
+        grid-template-rows: 20vh 1fr;
         column-gap: 3vw;
         row-gap: 3vw;
     }
