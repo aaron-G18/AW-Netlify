@@ -91,7 +91,7 @@ class Portrait extends Component {
 
           <Container className="mobile-container">
             <Row className="row">
-              <Col>
+              <Col xs={6}>
                 <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/Baller-Sariah.jpg" alt="Baller-Sariah.jpg"></img></Row>
                 <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/Board-Man.jpg" alt="Board-Man.jpg"></img></Row>
                 <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/Strong-Maria.jpg" alt="Strong-Maria.jpg"></img></Row>
@@ -100,7 +100,7 @@ class Portrait extends Component {
                 <Row><img id="photo" onClick={this.handleImageClick} src="./images/Angry-Alex.jpg" alt="Angry-Alex.jpg"></img></Row>
               </Col>
 
-              <Col>
+              <Col xs={6}>
                 <Row><img id="photo" onClick={this.handleImageClick} src="./images/Anita-Chiefs.jpg" alt="Anita-Chiefs.jpg"></img></Row>
                 <Row><img id="photo" onClick={this.handleImageClick} src="./images/Anita-Loves-Mum.jpg" alt="Anita-Loves-Mum.jpg"></img></Row>
                 <Row><img id="photo" onClick={this.handleImageClick} src="./images/Illy-Speechless.jpg" alt="Illy-Speechless.jpg"></img></Row>

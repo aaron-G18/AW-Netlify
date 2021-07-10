@@ -91,7 +91,7 @@ class Life extends Component {
           
           <Container className="mobile-container">
             <Row className="row">
-              <Col>
+              <Col xs={6}>
                 <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/BLM-Legs.jpg" alt="BLM-Legs.jpg"></img></Row>
                 <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/Porto-Trainformation.jpg" alt="Porto-Trainformation.jpg"></img></Row>
                 <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/River-Rocks.jpg" alt="River-Rocks.jpg"></img></Row>
@@ -101,7 +101,7 @@ class Life extends Component {
                 <Row><img id="photo" onClick={this.handleImageClick} src="./images/Bending-Lakes.jpg" alt="Bending-Lakes.jpg"></img></Row>
                 <Row><img id="photo" onClick={this.handleImageClick} src="./images/Porto-Bus-Thoughts.jpg" alt="Porto-Bus-Thoughts.jpg"></img></Row>
               </Col>
-              <Col>
+              <Col xs={6}>
                 <Row><img id="photo" onClick={this.handleImageClick} src="./images/BLM-Red-Hat-Man.jpg" alt="BLM-Red-Hat-Man.jpg"></img></Row>
                 <Row><img id="photo" onClick={this.handleImageClick} src="./images/Porto-Play-for-Pay.jpg" alt="Porto-Play-for-Pay.jpg"></img></Row>
                 <Row><img id="photo" onClick={this.handleImageClick} src="./images/Bad-Biker.jpg" alt="Bad-Biker.jpg"></img></Row>
