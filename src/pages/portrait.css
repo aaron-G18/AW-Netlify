@@ -63,9 +63,10 @@ img {
     .mobile-container {
         display: grid;
         width: 90%;
-        margin: auto;
-        grid-template-columns: repeat(auto-fit, minmax(30vw, auto));
-        grid-template-rows: repeat(auto-fit, 20vh);
+        height: 100%;
+        transform: translateX(10%);
+        grid-template-columns: repeat(auto-fit, 40vw); 
+        grid-template-rows: repeat(20vh);
         column-gap: 3vw;
         row-gap: 3vw;
     }
