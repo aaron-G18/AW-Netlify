@@ -122,10 +122,10 @@ class Portrait extends Component {
             <Col><img id="photo" onClick={this.handleImageClick} src="./images/Falcon-Frauen.jpeg" alt="Falcon-Frauen.jpeg"></img></Col>
               <Col><img id="photo" onClick={this.handleImageClick} src="./images/Sisters-Album-Cover.jpg" alt="Sisters-Album-Cover.jpg"></img></Col>
             </Row>
-            <Col><img id="photo" onClick={this.handleImageClick} src="./images/Angry-Alex.jpg" alt="Angry-Alex.jpg"></img></Col>
+            
 
             <Row xs>
-              
+            <Col><img id="photo" onClick={this.handleImageClick} src="./images/Angry-Alex.jpg" alt="Angry-Alex.jpg"></img></Col>
             </Row>
           </Container>
         </div>
