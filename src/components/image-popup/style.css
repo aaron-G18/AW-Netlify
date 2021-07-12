@@ -4,8 +4,8 @@
     right: 0;
     width: 100%;
     height: 100%;
-    background-color: black;
     z-index: 10;
+    background-color: rgba(0,0,0,.8);
 }
 
 .popup-hidden {
@@ -17,6 +17,11 @@
     width: 53vh;
     margin: auto;
     top: 5vh;
+}
+
+.popup-img {
+    box-shadow: 0 8px 32px 0 rgba(177 169 169 .32);
+    
 }
 
 .close-image {
