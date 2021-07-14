@@ -70,22 +70,22 @@ class Portrait extends Component {
           <Container className="image-container">
             <Row className="row">
               <Col>
-                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/Baller-Sariah.jpg" alt="Baller-Sariah.jpg"></img></Row>
-                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/Board-Man.jpg" alt="Board-Man.jpg"></img></Row>
-                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/Strong-Maria.jpg" alt="Strong-Maria.jpg"></img></Row>
+                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Baller-Sariah.jpg" alt="Baller-Sariah.jpg"></img></Row>
+                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Board-Man.jpg" alt="Board-Man.jpg"></img></Row>
+                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Strong-Maria.jpg" alt="Strong-Maria.jpg"></img></Row>
               </Col>
               <Col>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Anita-Chiefs.jpg" alt="Anita-Chiefs.jpg"></img></Row>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Anita-Loves-Mum.jpg" alt="Anita-Loves-Mum.jpg"></img></Row>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Illy-Speechless.jpg" alt="Illy-Speechless.jpg"></img></Row>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Sisters-Album-Cover.jpg" alt="Sisters-Album-Cover.jpg"></img></Row>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Valentine-Smiles.jpg" alt="Valentine-Smiles.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Anita-Chiefs.jpg" alt="Anita-Chiefs.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Anita-Loves-Mum.jpg" alt="Anita-Loves-Mum.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Illy-Speechless.jpg" alt="Illy-Speechless.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Sisters-Album-Cover.jpg" alt="Sisters-Album-Cover.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Valentine-Smiles.jpg" alt="Valentine-Smiles.jpg"></img></Row>
               </Col>
               <Col>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Sandhya-Profi.jpg" alt="Sandhya-Profi.jpg"></img></Row>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Jenny-Kitchen-Liiving.jpg" alt="Jenny-Kitchen-Liiving.jpg"></img></Row>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Skilly.jpg" alt="Skilly.jpg"></img></Row>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Angry-Alex.jpg" alt="Angry-Alex.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Sandhya-Profi.jpg" alt="Sandhya-Profi.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Jenny-Kitchen-Liiving.jpg" alt="Jenny-Kitchen-Liiving.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Skilly.jpg" alt="Skilly.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Angry-Alex.jpg" alt="Angry-Alex.jpg"></img></Row>
               </Col>
             </Row>
           </Container>
@@ -93,41 +93,41 @@ class Portrait extends Component {
 
           <Container className="mobile-container">
           <Row xs> 
-          <Col><img id="photo" onClick={this.handleImageClick} src="./images/Anita-Chiefs.jpg" alt="Anita-Chiefs.jpg"></img></Col>
+          <Col><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Anita-Chiefs.jpg" alt="Anita-Chiefs.jpg"></img></Col>
           </Row>
 
             <Row xs>
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/Baller-Sariah.jpg" alt="Baller-Sariah.jpg"></img></Col>
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/Board-Man.jpg" alt="Board-Man.jpg"></img></Col>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Baller-Sariah.jpg" alt="Baller-Sariah.jpg"></img></Col>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Board-Man.jpg" alt="Board-Man.jpg"></img></Col>
             </Row>
             <Row xs>
               
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/Anita-Loves-Mum.jpg" alt="Anita-Loves-Mum.jpg"></img></Col>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Anita-Loves-Mum.jpg" alt="Anita-Loves-Mum.jpg"></img></Col>
             </Row>
             <Row xs>
               
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/Strong-Maria.jpg" alt="Strong-Maria.jpg"></img></Col>
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/Sandhya-Profi.jpg" alt="Sandhya-Profi.jpg"></img></Col>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Strong-Maria.jpg" alt="Strong-Maria.jpg"></img></Col>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Sandhya-Profi.jpg" alt="Sandhya-Profi.jpg"></img></Col>
             </Row>      
             <Row xs> 
-            <Col><img id="photo" onClick={this.handleImageClick} src="./images/Jenny-Kitchen-Liiving.jpg" alt="Jenny-Kitchen-Liiving.jpg"></img></Col>
+            <Col><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Jenny-Kitchen-Liiving.jpg" alt="Jenny-Kitchen-Liiving.jpg"></img></Col>
           </Row>      
             <Row xs>
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/Valentine-Smiles.jpg" alt="Valentine-Smiles.jpg"></img></Col>
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/Skilly.jpg" alt="Skilly.jpg"></img></Col>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Valentine-Smiles.jpg" alt="Valentine-Smiles.jpg"></img></Col>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Skilly.jpg" alt="Skilly.jpg"></img></Col>
             </Row>
                     
             <Row xs>
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/Illy-Speechless.jpg" alt="Illy-Speechless.jpg"></img></Col>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Illy-Speechless.jpg" alt="Illy-Speechless.jpg"></img></Col>
             </Row>        
             <Row xs>
-            <Col><img id="photo" onClick={this.handleImageClick} src="./images/Falcon-Frauen.jpeg" alt="Falcon-Frauen.jpeg"></img></Col>
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/Sisters-Album-Cover.jpg" alt="Sisters-Album-Cover.jpg"></img></Col>
+            <Col><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Falcon-Frauen.jpeg" alt="Falcon-Frauen.jpeg"></img></Col>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Sisters-Album-Cover.jpg" alt="Sisters-Album-Cover.jpg"></img></Col>
             </Row>
             
 
             <Row xs>
-            <Col><img id="photo" onClick={this.handleImageClick} src="./images/Angry-Alex.jpg" alt="Angry-Alex.jpg"></img></Col>
+            <Col><img id="photo" onClick={this.handleImageClick} src="./images/portrait/Angry-Alex.jpg" alt="Angry-Alex.jpg"></img></Col>
             </Row>
           </Container>
         </div>

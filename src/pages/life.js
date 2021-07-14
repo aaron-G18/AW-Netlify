@@ -69,24 +69,24 @@ class Life extends Component {
           <Container className="image-container">
             <Row className="row">
               <Col>
-                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/BLM-Legs.jpg" alt="BLM-Legs.jpg"></img></Row>
-                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/Porto-Trainformation.jpg" alt="Porto-Trainformation.jpg"></img></Row>
-                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/River-Rocks.jpg" alt="River-Rocks.jpg"></img></Row>
-                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/Ghost-Fishing-Edit-test.jpg" alt="Ghost-Fishing-Edit-test.jpg"></img></Row>
-                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/No-Messages.jpg" alt="No-Messages.jpg"></img></Row>
+                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/life/BLM-Legs.jpg" alt="BLM-Legs.jpg"></img></Row>
+                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/life/Porto-Trainformation.jpg" alt="Porto-Trainformation.jpg"></img></Row>
+                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/life/River-Rocks.jpg" alt="River-Rocks.jpg"></img></Row>
+                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/life/Ghost-Fishing-Edit-test.jpg" alt="Ghost-Fishing-Edit-test.jpg"></img></Row>
+                <Row className="row"><img id="photo" onClick={this.handleImageClick} src="./images/life/No-Messages.jpg" alt="No-Messages.jpg"></img></Row>
               </Col>
               <Col>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/BLM-Red-Hat-Man.jpg" alt="BLM-Red-Hat-Man.jpg"></img></Row>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Porto-Play-for-Pay.jpg" alt="Porto-Play-for-Pay.jpg"></img></Row>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Bad-Biker.jpg" alt="Bad-Biker.jpg"></img></Row>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Hauptbahnhof-Nights.jpg" alt="Hauptbahnhof-Nights.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/life/BLM-Red-Hat-Man.jpg" alt="BLM-Red-Hat-Man.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/life/Porto-Play-for-Pay.jpg" alt="Porto-Play-for-Pay.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/life/Bad-Biker.jpg" alt="Bad-Biker.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/life/Hauptbahnhof-Nights.jpg" alt="Hauptbahnhof-Nights.jpg"></img></Row>
               </Col>
               <Col>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/BLM-Corrupt.jpg" alt="BLM-Corrupt.jpg"></img></Row>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Porto-Waiting-for-the-Sun.jpg" alt="Porto-Waiting-for-the-Sun.jpg"></img></Row>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Bending-Lakes.jpg" alt="Bending-Lakes.jpg"></img></Row>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Texture-Fishing.jpg" alt="Texture-Fishing.jpg"></img></Row>
-                <Row><img id="photo" onClick={this.handleImageClick} src="./images/Porto-Bus-Thoughts.jpg" alt="Porto-Bus-Thoughts.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/life/BLM-Corrupt.jpg" alt="BLM-Corrupt.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/life/Porto-Waiting-for-the-Sun.jpg" alt="Porto-Waiting-for-the-Sun.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/life/Bending-Lakes.jpg" alt="Bending-Lakes.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/life/Texture-Fishing.jpg" alt="Texture-Fishing.jpg"></img></Row>
+                <Row><img id="photo" onClick={this.handleImageClick} src="./images/life/Porto-Bus-Thoughts.jpg" alt="Porto-Bus-Thoughts.jpg"></img></Row>
               </Col>
             </Row>
           </Container>
@@ -95,45 +95,45 @@ class Life extends Component {
           <Container className="mobile-container">
           
             <Row xs>
-              <Col ><img id="photo" onClick={this.handleImageClick} src="./images/BLM-Legs.jpg" alt="BLM-Legs.jpg"></img></Col>
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/BLM-Corrupt.jpg" alt="BLM-Corrupt.jpg"></img></Col>
+              <Col ><img id="photo" onClick={this.handleImageClick} src="./images/life/BLM-Legs.jpg" alt="BLM-Legs.jpg"></img></Col>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/life/BLM-Corrupt.jpg" alt="BLM-Corrupt.jpg"></img></Col>
             </Row>
 
             
 
 
             <Row xs>
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/BLM-Red-Hat-Man.jpg" alt="BLM-Red-Hat-Man.jpg"></img></Col>
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/Bad-Biker.jpg" alt="Bad-Biker.jpg"></img></Col> 
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/life/BLM-Red-Hat-Man.jpg" alt="BLM-Red-Hat-Man.jpg"></img></Col>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/life/Bad-Biker.jpg" alt="Bad-Biker.jpg"></img></Col> 
             </Row>
             <Row xs>
-            <Col><img id="photo" onClick={this.handleImageClick} src="./images/Bending-Lakes.jpg" alt="Bending-Lakes.jpg"></img></Col>
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/River-Rocks.jpg" alt="River-Rocks.jpg"></img></Col>
-            </Row>
-
-            <Row xs>
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/Standing-Tall.jpeg" alt="Standing-Tall.jpeg"></img></Col>
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/Porto-Love.jpeg" alt="Porto-Love.jpeg"></img></Col> 
-            </Row>
-
-
-            <Row xs>
-            <Col><img id="photo" onClick={this.handleImageClick} src="./images/Ghost-Fishing-Edit-test.jpg" alt="Ghost-Fishing-Edit-test.jpg"></img></Col>  
-            <Col><img id="photo" onClick={this.handleImageClick} src="./images/Texture-Fishing.jpg" alt="Texture-Fishing.jpg"></img></Col>
+            <Col><img id="photo" onClick={this.handleImageClick} src="./images/life/Bending-Lakes.jpg" alt="Bending-Lakes.jpg"></img></Col>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/life/River-Rocks.jpg" alt="River-Rocks.jpg"></img></Col>
             </Row>
 
             <Row xs>
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/Porto-Waiting-for-the-Sun.jpg" alt="Porto-Waiting-for-the-Sun.jpg"></img></Col>
-              <Col ><img id="photo" onClick={this.handleImageClick} src="./images/Porto-Trainformation.jpg" alt="Porto-Trainformation.jpg"></img></Col>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/life/Standing-Tall.jpeg" alt="Standing-Tall.jpeg"></img></Col>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/life/Porto-Love.jpeg" alt="Porto-Love.jpeg"></img></Col> 
+            </Row>
+
+
+            <Row xs>
+            <Col><img id="photo" onClick={this.handleImageClick} src="./images/life/Ghost-Fishing-Edit-test.jpg" alt="Ghost-Fishing-Edit-test.jpg"></img></Col>  
+            <Col><img id="photo" onClick={this.handleImageClick} src="./images/life/Texture-Fishing.jpg" alt="Texture-Fishing.jpg"></img></Col>
+            </Row>
+
+            <Row xs>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/life/Porto-Waiting-for-the-Sun.jpg" alt="Porto-Waiting-for-the-Sun.jpg"></img></Col>
+              <Col ><img id="photo" onClick={this.handleImageClick} src="./images/life/Porto-Trainformation.jpg" alt="Porto-Trainformation.jpg"></img></Col>
                
             </Row>
             <Row xs>
-            <Col><img id="photo" onClick={this.handleImageClick} src="./images/Porto-Bus-Thoughts.jpg" alt="Porto-Bus-Thoughts.jpg"></img></Col>
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/Porto-Play-for-Pay.jpg" alt="Porto-Play-for-Pay.jpg"></img></Col>
+            <Col><img id="photo" onClick={this.handleImageClick} src="./images/life/Porto-Bus-Thoughts.jpg" alt="Porto-Bus-Thoughts.jpg"></img></Col>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/life/Porto-Play-for-Pay.jpg" alt="Porto-Play-for-Pay.jpg"></img></Col>
             </Row>
             
             <Row xs>
-              <Col><img id="photo" onClick={this.handleImageClick} src="./images/Hauptbahnhof-Nights.jpg" alt="Hauptbahnhof-Nights.jpg"></img></Col>
+              <Col><img id="photo" onClick={this.handleImageClick} src="./images/life/Hauptbahnhof-Nights.jpg" alt="Hauptbahnhof-Nights.jpg"></img></Col>
               
             </Row>
           </Container>
