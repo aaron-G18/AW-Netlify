@@ -12,17 +12,7 @@ img {
 }
 
 
-#life-nav-div {
-    margin-bottom: 5vw;
-    margin-right: 5vw;
-    text-align: right;
-}
 
-#life-nav {
-    font-size: 2vw;
-    color: black;
-    text-decoration: none;
-}
 
 #photo {
     animation-name: image-fade;
@@ -50,9 +40,7 @@ img {
 }
 
 @media (max-width: 750px) {
-    #life-nav {
-        font-size: 5vw;  
-    }
+    
 
     .image-container {
         display: none;

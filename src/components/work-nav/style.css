@@ -1,16 +1,16 @@
 #work-navigation {
-    margin-top: 30vh;
+    margin-top: 25vh;
 }
 
 .work-nav {
     color: white;
     text-decoration: none;
-    width: 20%;
+    width: 30%;
     display: inline-block;
     font-size: 5vw;
     margin: 0px 60px;
     opacity: 0;
-    background-color: rgba(200, 200, 200, .4);
+    background-color: rgba(200, 200, 200, .5);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 10px );
     -webkit-backdrop-filter: blur( 10px );
@@ -22,6 +22,10 @@
     animation-timing-function: ease;
     animation-delay: 2s;
     animation-fill-mode: forwards;
+}
+
+#auto-nav-button {
+  margin-top: 5vw;
 }
 
   
@@ -40,13 +44,13 @@
     }
 
     #portrait-nav-button {
-      width: 40%;
-      font-size: 5vh;
+      width: 50%;
+      font-size: 4vh;
     }
 
-    #life-nav-button {
-      width: 40%;
-      font-size: 5vh;
+    #life-nav-button, #auto-nav-button {
+      width: 55%;
+      font-size: 4vh;
       margin-top: 15vh;
     }
 }

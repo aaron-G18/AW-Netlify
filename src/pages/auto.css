@@ -1,0 +1,18 @@
+#portrait-nav-div {
+    float: right;
+    margin-bottom: 5vw;
+    margin-right: 5vw;
+    text-align: right;
+}
+
+#life-nav-div {
+    margin-bottom: 5vw;
+    margin-left: 5vw; 
+    float: left; 
+}
+
+#life-nav {
+    font-size: 2vw;
+    color: black;
+    text-decoration: none;  
+}

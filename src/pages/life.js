@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import "./life.css";
-import { FiArrowLeft } from 'react-icons/fi';
+import { FiArrowLeft, FiArrowRight } from 'react-icons/fi';
 import Burger from "../components/burger";
 import Menu from "../components/burger-menu";
 import Popup from "../components/image-popup";
@@ -138,8 +138,15 @@ class Life extends Component {
             </Row>
           </Container>
         </div> 
-        <div id="portrait-nav-div">
-          <a id="portrait-nav" href="/portrait"><FiArrowLeft /> Portrait</a>
+        <div>
+        
+        <div id="left-nav-div">
+          <a className="lower-nav-link" href="/portrait"><FiArrowLeft /> Portrait</a>
+        </div>
+        <div id="right-nav-div">
+          <a className="lower-nav-link" href="/auto">Auto <FiArrowRight /></a>
+        </div>
+
         </div>
         <Popup 
           popupOpen={this.state.popupOpen}

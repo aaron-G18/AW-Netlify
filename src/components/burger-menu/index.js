@@ -11,6 +11,9 @@ const Menu = (props) => {
       <a id={(props.burgerCurrentPage === "life") ? "burgerCurrentPage" : ""} className="burger-menu-item" href="/life">
         <span role="img" aria-label="Life">Life</span>
       </a>
+      <a id={(props.burgerCurrentPage === "auto") ? "burgerCurrentPage" : ""} className="burger-menu-item" href="/auto">
+        <span role="img" aria-label="Automotive">Automotive</span>
+      </a>
       <a id={(props.burgerCurrentPage === "about") ? "burgerCurrentPage" : ""} className="burger-menu-item" href="/about">
         <span role="img" aria-label="About">About</span>
       </a>
