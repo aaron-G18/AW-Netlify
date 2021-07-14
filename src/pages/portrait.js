@@ -16,6 +16,7 @@ class Portrait extends Component {
     this.state = {
       homePage: false,
       activePage: "work",
+      burgerCurrentPage: "portrait",
       menuOpen: false,
       imageClicked: "",
       imageClickedAlt: "",
@@ -63,6 +64,7 @@ class Portrait extends Component {
         />
         <Menu 
           menuOpen={this.state.menuOpen}
+          burgerCurrentPage={this.state.burgerCurrentPage}
         />
         <div className="content">
           <Container className="image-container">

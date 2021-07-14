@@ -16,6 +16,7 @@ class Contact extends Component {
     this.state = {
       homePage: false,
       activePage: "contact",
+      burgerCurrentPage: "contact",
       formSubmitted: false,
       menuOpen: false,
       firstName: "",
@@ -71,6 +72,7 @@ class Contact extends Component {
         />
         <Menu 
           menuOpen={this.state.menuOpen}
+          burgerCurrentPage={this.state.burgerCurrentPage}
         />
         {this.state.formSubmitted ? 
           (<p id="submitted-message">Thank you for your message!</p>) : ""}

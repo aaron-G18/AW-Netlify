@@ -15,6 +15,7 @@ class Life extends Component {
       this.state = {
         homePage: false,
         activePage: "work",
+        burgerCurrentPage: "life",
         menuOpen: false,
         imageClicked: "",
         imageClickedAlt: "",
@@ -62,6 +63,7 @@ class Life extends Component {
         />
         <Menu 
           menuOpen={this.state.menuOpen}
+          burgerCurrentPage={this.state.burgerCurrentPage}
         />
         <div className="content">
           <Container className="image-container">

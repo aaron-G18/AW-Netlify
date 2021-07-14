@@ -10,6 +10,7 @@ class About extends Component {
     this.state = {
       homePage: false,
       activePage: "about",
+      burgerCurrentPage: "about",
       menuOpen: false
     };
   };
@@ -38,6 +39,7 @@ class About extends Component {
         />
         <Menu 
           menuOpen={this.state.menuOpen}
+          burgerCurrentPage={this.state.burgerCurrentPage}
         />
         <Content />
       </div>

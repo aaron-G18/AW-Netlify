@@ -32,7 +32,7 @@
     transition: color 0.3s linear;
 }
 
-.burger-menu-item:hover {
+#burgerCurrentPage {
     color: #343078;
 }
 
