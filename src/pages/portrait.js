@@ -134,7 +134,7 @@ class Portrait extends Component {
         <div>
         
         <div id="left-nav-div">
-          <a className="lower-nav-link" href="/auto"><FiArrowLeft /> Auto</a>
+          <a className="lower-nav-link" href="/auto"><FiArrowLeft /> Automotive</a>
         </div>
         <div id="right-nav-div">
           <a className="lower-nav-link" href="/life">Life <FiArrowRight /></a>

@@ -144,7 +144,7 @@ class Life extends Component {
           <a className="lower-nav-link" href="/portrait"><FiArrowLeft /> Portrait</a>
         </div>
         <div id="right-nav-div">
-          <a className="lower-nav-link" href="/auto">Auto <FiArrowRight /></a>
+          <a className="lower-nav-link" href="/auto">Automotive <FiArrowRight /></a>
         </div>
 
         </div>
