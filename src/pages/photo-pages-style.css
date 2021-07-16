@@ -1,14 +1,23 @@
 .content {
-   margin-top: 5vw;
-}
+    margin-top: 5vw;
+ }
+ 
+ img {
+     width: 100%;
+     cursor: pointer;
+ }
+ 
+ .row {
+     margin: 3vh;
+ }
 
-img {
-    width: 100%;
-    cursor: pointer;
-}
-
-.row {
-    margin: 3vh;
+ #photo {
+    animation-name: image-fade;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: .8s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #right-nav-div {
@@ -30,20 +39,12 @@ img {
     text-decoration: none;  
 }
 
-#photo {
-    animation-name: image-fade;
-    animation-duration: 3s;
-    animation-timing-function: ease;
-    animation-delay: .8s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
-
 .mobile-container {
     display: none;
     width: 90%;
     margin: auto;
 }
+
 
 
 @keyframes image-fade {
@@ -54,6 +55,8 @@ img {
       opacity: 1;
     }
 }
+
+
 
 @media (max-width: 750px) {
     .lower-nav-link {
@@ -67,6 +70,5 @@ img {
     .mobile-container {
         display: block;
     }
-    
     
 }

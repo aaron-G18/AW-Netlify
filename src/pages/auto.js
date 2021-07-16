@@ -3,7 +3,7 @@ import Header from "../components/header"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import "./auto.css";
+import "./photo-pages-style.css";
 import { FiArrowLeft, FiArrowRight } from 'react-icons/fi';
 import Burger from "../components/burger";
 import Menu from "../components/burger-menu";
