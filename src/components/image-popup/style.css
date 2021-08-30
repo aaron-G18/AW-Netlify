@@ -13,10 +13,11 @@
 }
 
 .popup {
-    position: relative;
+    position: unset;
     width: 53vh;
     margin: auto;
     top: 5vh;
+    
 }
 
 .popup-img {

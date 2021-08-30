@@ -6,7 +6,7 @@ import Portrait from "./pages/portrait";
 import Auto from "./pages/auto";
 import About from "./pages/about";
 import Contact from "./pages/contact";
-import './App.css';
+
 
 
 class App extends Component {

@@ -28,7 +28,7 @@ class Home extends Component {
     return(
       <div className="home">
         <div id="fade"></div>
-        <img id="background" src="./images/life/River-Rocks.jpg" alt="background of river rocks"></img>
+        {/* <img id="background" src="./images/life/Hauptbahnhof-Nights.jpg" alt="background of Hauptbahnhof"></img> */}
         <Header 
           homePage={this.state.homePage}
           activePage={this.state.activePage}
